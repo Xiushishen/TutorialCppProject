@@ -9,8 +9,10 @@ using std::cout;
 using std::endl;
 
 // main function where the execution of program begins
+
 int main() {
     // prints hello world
     cout << "Hello World" << endl;
+    cout << "test CI/CD" << endl;
     return 0;
 }
