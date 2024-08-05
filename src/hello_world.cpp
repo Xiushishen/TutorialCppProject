@@ -29,7 +29,6 @@ int main() {
         int minVal = INT_MAX;
         int cur = 1;
 
-        // 1、选距离源点最近且未访问过的节点
         for (int v = 1; v <= n; ++v) {
             if (!visited[v] && minDist[v] < minVal) {
                 minVal = minDist[v];
